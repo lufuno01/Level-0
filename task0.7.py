@@ -4,3 +4,11 @@ def convert_fanhrenheit_to_celsius(fahrenheit):
 
 
 print(convert_fanhrenheit_to_celsius(45))
+
+def convert_celsius_to_fanhrenheit(celsius):
+    fanhrenheit = (celsius * 9 / 5) + 32
+
+    return fanhrenheit
+
+
+print(convert_celsius_to_fanhrenheit(12))

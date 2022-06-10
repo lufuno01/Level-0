@@ -10,5 +10,5 @@ def common_characters(first_word, second_word):
     print(results)
 
 
-common_characters("House", "Computer")
+common_characters("house","computers")
 

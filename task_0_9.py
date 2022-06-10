@@ -4,17 +4,15 @@ def checking_vowels(word):
     no_duplicates_found = []
     vowels_found = []
     word.lower()
-    for x in word:
-        if x in vowels:
-            vowels_found.append(x)
+    for item in word:
+        if item in vowels:
+            vowels_found.append(item)
 
-    for i in vowels_found:
-        if i not in no_duplicates_found:
-            no_duplicates_found.append(i)
+    for word in vowels_found:
+        if word not in no_duplicates_found:
+            no_duplicates_found.append(word)
     results = ", ".join(no_duplicates_found)
     print(results)
 
 
 checking_vowels("Umuzi")
-   
-  

@@ -1,11 +1,11 @@
 def evenOrOdd(number):
     if number % 2 == 0:
 
-        print(number, "even")
+        print("even")
 
     else:
 
-        print(number, "odd")
+        print("odd")
 
 
 evenOrOdd(2)

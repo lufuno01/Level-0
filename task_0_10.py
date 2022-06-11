@@ -5,10 +5,10 @@ def common_characters(first_word, second_word):
     for letters in first_word:
         if letters in second_word:
             common_letters.append(letters)
-            results = ", ".join(common_letters)
+            results = ",".join(common_letters)
 
-    print(results)
+    print("Common letters:", results)
 
 
-common_characters("house","computers")
+common_characters("house", "computers")
 

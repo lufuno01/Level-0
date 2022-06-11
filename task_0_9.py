@@ -1,4 +1,3 @@
-
 def checking_vowels(word):
     vowels = ["a", "e", "i", "o", "u"]
     no_duplicates_found = []
@@ -12,7 +11,7 @@ def checking_vowels(word):
         if word not in no_duplicates_found:
             no_duplicates_found.append(word)
     results = ", ".join(no_duplicates_found)
-    print("Vowels:",results)
+    print("Vowels:", results)
 
 
 checking_vowels("Umuzi")

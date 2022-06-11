@@ -4,20 +4,23 @@ def convert(number):
     string_hours = " hours"
     string_min = " minutes"
 
-    if hours == 1:
+    if (hours == 1):
         string_hours = " hour"
 
-    if minutes == 1:
+    if (minutes == 1):
         string_min = " minute"
 
-    if minutes > 0 and hours > 0:
+    if (minutes > 0 and hours > 0):
         return str(hours) + string_hours + ", " + str(minutes) + string_min
-
-    elif hours == 0:
+    if (hours > 1 and minutes > 1):
+        return str(hours) + string_hours + ", " + str(minutes) + string_min
+    if (minutes == 0):
+        return str(hours) + string_hours + ", " + str(minutes) + string_min
+    elif (hours == 0):
         return str(hours) + string_hours + ", " + str(minutes) + string_min
 
     return str(hours) + string_hours
 
 
-print(convert(71))
+print(convert(120))
 
